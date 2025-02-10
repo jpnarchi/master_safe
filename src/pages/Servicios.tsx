@@ -5,13 +5,13 @@ import { Shield, Lock } from 'lucide-react';
 
 const services = [
   {
-    image: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80',
+    image: '/mini.webp',
     title: 'BLINDAJE TRANSPARENTE',
     description: 'Todos los cristales originales son sustituidos por Cristales Blindados ultraligeros marca "PG Products SUPER SLIM", de 18 mm +/- 2mm. de espesor con ceja de acero balístico, certificados por los laboratorios internacionales más reconocidos. Los cristales delanteros bajan hasta el 95% de su capacidad original.',
     imageLeft: true
   },
   {
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80',
+    image: '/mercedes.webp',
     title: 'BLINDAJE OPACO',
     description: 'El blindaje opaco se compone de una combinación de MANTAS DE ARAMIDA TWARON 13 CAPAS Multihit y Placas de Acero Balístico de 2.5mm. SSAB de la más alta calidad, todas estas cortadas, termo formadas o moldeadas a la medida exacta de su ubicación, el poco uso de acero en el vehículo hace que no pierda el performance de el auto y que el peso sea por apenas los 160 Kgs.',
     imageLeft: false
