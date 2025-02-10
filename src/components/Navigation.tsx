@@ -41,7 +41,7 @@ const Navigation = () => {
 
         <div className="absolute left-1/2 -translate-x-1/2">
           <img
-            src="/logo.png"
+            src="/logo_negro.png"
             alt="MasterSafe"
             className="h-8 md:h-10 w-auto"
           />
