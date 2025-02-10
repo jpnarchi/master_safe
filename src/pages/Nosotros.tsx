@@ -4,19 +4,19 @@ import Footer from '../components/Footer';
 
 const sections = [
   {
-    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80',
+    image: '/mini.webp',
     title: 'INNOVACIÓN',
     description: 'Nos enorgullece ofrecer un servicio integral, desde la asesoría inicial hasta la instalación final del blindaje. Trabajamos en estrecha colaboración con nuestros clientes, escuchando sus necesidades y diseñando soluciones adaptadas a sus requerimientos específicos.',
     imageLeft: true
   },
   {
-    image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80',
+    image: '/jeep.webp',
     title: 'SEGURIDAD',
     description: 'Nos esforzamos por superar las expectativas de nuestros clientes, brindándoles tranquilidad y seguridad en todo momento. Nuestro compromiso no solo radica en proporcionar un blindaje confiable, sino también en mantener una comunicación constante y transparente con cada uno de nuestros clientes.',
     imageLeft: false
   },
   {
-    image: 'https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&q=80',
+    image: '/chevrolet.webp',
     title: 'CONFIANZA',
     description: 'En nuestra empresa, valoramos enormemente la seguridad y la integridad de las personas. Por eso, nos mantenemos actualizados con los últimos avances tecnológicos y estándares de calidad en el campo del blindaje vehicular, garantizando así la máxima protección en cada proyecto que llevamos a cabo.',
     imageLeft: true
