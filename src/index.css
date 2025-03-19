@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-33.33% - 2rem));
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
+body {
+  @apply antialiased bg-white text-gray-800 font-light;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Brand typography styles */
+.brand-heading {
+  @apply font-light tracking-[0.2em] uppercase text-brand-navy;
+}
+
+.brand-subheading {
+  @apply font-light tracking-wider text-gray-700;
+}
+
+.brand-text {
+  @apply font-light tracking-wide text-gray-600;
+}
+
+/* Brand buttons */
+.brand-button {
+  @apply px-8 py-3 border border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white transition-colors duration-300 text-sm tracking-wider uppercase;
+}
+
+/* Brand navigation */
+.nav-link {
+  @apply text-sm tracking-wider hover:text-brand-navy/80 transition-colors duration-300;
+}
+
+/* Form elements */
+.form-input {
+  @apply w-full bg-gray-50 border border-gray-200 text-gray-800 p-4 focus:outline-none focus:border-brand-navy transition-colors;
+}
+
+/* Interactive elements */
+.interactive-hover {
+  @apply hover:text-brand-navy transition-colors duration-300;
+}
+
+/* Background overlays */
+.overlay-dark {
+  @apply bg-gray-900/50;
+}
