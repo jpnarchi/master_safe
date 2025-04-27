@@ -71,7 +71,7 @@ const Contacto = () => {
       <section className="pt-20">
         <div className="relative h-[60vh] overflow-hidden">
           <img
-            src="/IMG_3004.JPG"
+            src="/burban.jpeg"
             alt="Contact header"
             className="absolute inset-0 w-full h-full object-cover"
           />

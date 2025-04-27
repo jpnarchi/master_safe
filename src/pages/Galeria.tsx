@@ -5,7 +5,7 @@ import { X } from 'lucide-react';
 
 const images = [
   {
-    url: '/IMG_3004.JPG',
+    url: '/burban.jpeg',
     title: 'Master Safe Armoring'
   },
   {
@@ -38,10 +38,6 @@ const images = [
   },
   {
     url: '/IMG_2263.JPG',
-    title: 'Master Safe Armoring'
-  },
-  {
-    url: '/IMG_1667.JPG',
     title: 'Master Safe Armoring'
   }
 ];

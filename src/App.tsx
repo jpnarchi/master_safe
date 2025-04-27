@@ -12,7 +12,7 @@ import Contacto from './pages/Contacto';
 import WhatsAppButton from './components/WhatsAppButton';
 
 const slideshowImages = [
-  '/IMG_3004.JPG',
+  '/burban.jpeg',
   '/IMG_4525.JPG',
   '/IMG_2383.JPG',
   '/IMG_2801.JPG',
@@ -70,7 +70,7 @@ function App() {
             />
 
             <ContentSection
-              image="/IMG_2401.JPG"
+              image="/quinta.png"
               title="QUINTA PUERTA"
               subtitle="Mantenemos la ingeniería original de tu vehículo, conservando la funcionalidad de los sistemas de apertura y cierre automático."
               imageLeft={false}
@@ -79,7 +79,7 @@ function App() {
             {/* Call to Action Section */}
             <section className="relative h-[60vh] overflow-hidden">
               <img
-                src="/IMG_4728.JPG"
+                src="/burban.jpeg"
                 alt="Master Safe Armoring"
                 className="absolute inset-0 w-full h-full object-cover"
               />
